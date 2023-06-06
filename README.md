@@ -85,4 +85,4 @@ You can limit no. of image downloads by `max` value.
 `just-another-imgscrapper` is released under the MIT liscense. See LISCENSE for details.
 
 ## Contact
-Follow me on twitter [@deshritbaral](!https://twitter.com/deshritbaral)
+Follow me on twitter ![@deshritbaral](https://twitter.com/deshritbaral)

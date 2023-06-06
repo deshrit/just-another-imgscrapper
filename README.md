@@ -6,6 +6,7 @@ A utility for scrapping images from a HTML doc.
 Uses `asyncio` for fast concurrent download.
 
 ## Installation
+Binary installers for the latest released version are available at the ![Python Package Index (PyPI)](https://pypi.org/project/just-another-imgscrapper/).
 ```bash
 $ pip install just-another-imgscrapper
 ```

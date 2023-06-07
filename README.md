@@ -6,7 +6,7 @@ A utility for scrapping images from a HTML doc.
 Uses `asyncio` for fast concurrent download.
 
 ## Installation
-Binary installers for the latest released version are available at the ![Python Package Index (PyPI)](https://pypi.org/project/just-another-imgscrapper/).
+Binary installers for the latest released version are available at the [Python Package Index (PyPI)](https://pypi.org/project/just-another-imgscrapper/).
 ```bash
 $ pip install just-another-imgscrapper
 ```
@@ -49,7 +49,7 @@ You can add request headers.
     }
 >>> ...
 ```
-You can specifically select specific type of `img` tags by specfying attribute of HTML element.
+You can select specific type of `img` tags only by passing `attrs` dict.
 ```html
 <!-- >http://helloworld.com<-->
 <html>
@@ -80,10 +80,10 @@ The downloader gives unique `uuid` to downloaded images preserving the image ext
 >>> d.download()
 >>> 5
 ```
-You can limit no. of image downloads by `max` value.
+Limit the no. of image downloads by passing `max` value.
 
 ## Liscense
 `just-another-imgscrapper` is released under the MIT liscense. See LISCENSE for details.
 
 ## Contact
-Follow me on twitter ![@deshritbaral](https://twitter.com/deshritbaral)
+Connect with me on twitter [@deshritbaral](https://twitter.com/deshritbaral)

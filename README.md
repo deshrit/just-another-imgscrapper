@@ -69,7 +69,7 @@ To select only images with `class: cat`
 >>> d.download()
 >>> 1 # http://helloworld.com/foo.jpg
 ```
-The downloader gives unique `uuid` to downloaded images preserving the image extension.
+The downloader gives unique `uuid` filename to downloaded images preserving the image extension.
 ```python
 >>> d = ImgScrapper(
     url = "http://helloworld.com",
